@@ -22,14 +22,22 @@
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">             
-                        <li class="nav-item"><button class="btn btn-success my-2 my-sm-0" type="submit" data-translate="Try it for free"></button> </li>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <i class="bi bi-flag"></i>
+                            <select id="language" class="btn btn-outline-secondary my-2 my-sm-0" data-placeholder="English" onchange="toggleLanguage(this.options[this.selectedIndex].value)">
+                                <option value="English">English</option>
+                                <option value="Deutsch">Deutsch</option>
+                            </select>
+                        </li>             
+                        <li class="nav-item"><button class="btn btn-success my-2 my-sm-0" type="submit" data-translate="Try it for free"></button></li>
                         <li class="nav-item"><a class="btn btn-outline-secondary my-2 my-sm-0" href="#contact" data-translate="Support"></a> </li>              
                         <li class="nav-item"><button class="btn btn-outline-success my-2 my-sm-0" type="submit" data-translate="Login"></button</li>
                     </ul>
                 </div>
             </div>
         </nav>
+
         <!-- Header-->
         <header class="py-5">
             <div class="container px-5">
@@ -542,9 +550,6 @@
                             <div class="d-none" id="submitSuccessMessage">
                                 <div class="text-center mb-3">
                                     <div class="fw-bolder" data-translate="Form submission successful!"></div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                                 </div>
                             </div>
                             <!-- Submit error message-->
