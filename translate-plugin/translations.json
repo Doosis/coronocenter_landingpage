@@ -8,59 +8,59 @@
     "Login":{
         "de": "Login" 
     },
-    "COVID%n Test Administration Made Simple.": {
-        "de": "COVID19 Test-Verwaltung ganz simpel." 
+    "COVID-%n Test Administration Made Simple.": {
+        "de": "COVID-19 Test-Verwaltung ganz simpel." 
     },
     "Quickly share your test results with your friends or organisation": {
-        "de": "Teile deine Testergebnisse mit deinen Freunden oder Organisation" 
+        "de": "Teile deine Testergebnisse mit deinen Freunden oder deiner Organisation" 
     },
     "Learn More": {
         "de": "Mehr erfahren" 
     },
-    "Corono.Center is a platform with the cause to support with processing and administration of COVID19-Selftests for individuals, employees, and organisations. The purpose is simplify test result sharing for individuals and to reduce the workload for organisations with processing, validation, and administration of COVID19 tests.": {
-        "de": "Corono.Center unterstuetzt Benutzer, Angestellte und Organisationen bei der Testabwicklung von COVID19-Selbsttests. Wir bieten Benutzern einen einfachen weg Testergebnisse zu teilen und reduzieren den Arbeitaufwand bei der Verarbeitung, Bestaetigung und Verwaltung von COVID19 Tests." 
+    "Corono.Center is a platform with the cause to support with processing and administration of COVID-19 selftests for individuals and organisations. The purpose is simplified result sharing and to reduce the workload for organisations with processing, validation, and administration of COVID-19 tests.": {
+        "de": "Corono.Center unterstützt Benutzer und Organisationen bei der Testabwicklung von COVID-19-Selbsttests. Wir bieten Benutzern einen einfachen Weg Testergebnisse zu teilen und reduzieren den Arbeitaufwand bei der Verarbeitung, Bestätigung und Verwaltung von COVID-19 Tests." 
     },
     "Stay Safe": {
         "de": "Bleib Sicher" 
     },
-    "Reduce the risk of infecting yourself or others by keeping informed about the test status of people you meet.": {
-        "de": "REduziere das Risiko dich oder andere anzustecken und bleibe informiert uber den Teststatus von Leuten die du triffst." 
+    "Reduce risk of infection by being informed about the test status of people you meet.": {
+        "de": "Reduziere das Risiko dich oder andere anzustecken und bleibe informiert über den Teststatus von Leuten die du triffst." 
     },
     "Provide Evidence": {
         "de": "Erbring den Nachweis" 
     },
     "Provide evidence about conducted tests before leaving your home.": {
-        "de": "Erstelle ein Beleg uber die durchfuehrung eines Tests bevor du das Haus verlaesst." 
+        "de": "Erstelle ein Beleg über die Durchführung eines Tests bevor du das Haus verlässt." 
     },
     "Share Results": {
         "de": "Teile Ergebnisse" 
     },
-    "Share your test status before you meet with friends, colleagues or with your employer in a quick and easy way.": {
+    "Share your test result in a quick and easy way before you meet with friends, colleagues or with your employer.": {
         "de": "Teile deinen Teststatus schnell und einfach mit Freunden oder deinem Arbeitgeber bevor du sie triffst." 
     },
     "Avoid Business Interruption": {
-        "de": "Verhinder Betriebsausfelle" 
+        "de": "Verhindere Betriebsausfälle" 
     },
     "Let your workforce arrive tested to avoid spreading infections and shortage in resources which risks business interruptions.": {
-        "de": "Lass deine Belegschaft getestet antretten um die Ausbreitung von Infektionen zu verhindern und keine Geschaeftsunterbrechungen zu riskieren." 
+        "de": "Lass deine Belegschaft getestet antreten um die Ausbreitung von Infektionen zu verhindern und keine Geschaeftsunterbrechungen zu riskieren." 
     },
     "Increase Health & Safety": {
-        "de": "Erhöhe Gesundheit und Sicherheit " 
+        "de": "Reduziere das Infektionsrisiko" 
     },
     "Increased health and safety for your workforce and reduce infection rates by avoiding on-premise testing.": {
-        "de": "Erhoehe die Gesundheit und sicherheit deiner Belegschaft und reduziere die Infektionsraten indem du nicht vor Ort Testest." 
+        "de": "Eerhöhe die Sicherheit und den Gesundheitsschutz deiner Belegschaft und deiner Familie und Freunde und reduziere die Infektionsrate, indem du dich vorab testest." 
     },
     "Reduce Workload": {
-        "de": "Reduziere die Arbeitsbelastung" 
+        "de": "Reduziere den Arbeitsaufwand" 
     },
-    "Reduced your workload with on-premise test administration and coordination of COVID%n positive cases.": {
-        "de": "Reduziere deinen Arbeitsaufwand mit dem Testen vor Ort und der koordination von COVID%n positiven Mitarbeitern." 
+    "Reduce the workload with on-premise test administration and coordination of COVID-%n positive cases.": {
+        "de": "Reduziere deinen Arbeitsaufwand mit dem vor Ort testen und der Koordination von COVID-%n positiven Mitarbeitern." 
     },
     "Get in touch": {
         "de": "Kontaktiere uns" 
     },
     "How it works.": {
-        "de": "Wie's Funktioniert." 
+        "de": "Wie's funktioniert." 
     },
     "Just sign up and ...": {
         "de": "Meld dich an und ..." 
@@ -72,31 +72,31 @@
         "de": "Schritt %n:" 
     },
     "Prepare": {
-        "de": "Bereite vor" 
+        "de": "Vorbereiten" 
     },
     "Prepare your lateral-flow test by following the instructions shown in the app.": {
-        "de": "Bereite deinen Schnelltest vor indem du den Anwesungen auf der Plattform folgst." 
+        "de": "Folge den Anweisungen auf der Plattform, um den Schnelltest vorzubereiten." 
     },
     "Conduct": {
-        "de": "Fuehre durch" 
+        "de": "Durchführen" 
     },
-    "Conduct your test as ususal with the instructions provided by the lateral-flow test manufacturer.": {
-        "de": "Fuehre den Test wie gewohnt mit den beigelegten Anweisungen durch." 
+    "Conduct your test as ususal, using instructions provided by the lateral-flow test manufacturer.": {
+        "de": "Führe den Schnelltest wie gewohnt mit den Packungsanweisungen durch." 
     },
     "Report": {
-        "de": "Berichte" 
+        "de": "Berichten" 
     },
     "Report on your test result via the app.": {
-        "de": "Berichte uber deine Testergebnisse uber die plattform." 
+        "de": "Lade deine Testergebnisse über die Plattform hoch." 
     },
     "Share": {
-        "de": "Teile" 
+        "de": "Teilen" 
     },
-    "Share your result with anyone you want, such as friends for a party or your employeer or school.": {
-        "de": "Teile dein Ergebnis mit jedem den du möchtest, z.B. Freunden für eine Party oder deinen Mitarbeitern oder der Schule." 
+    "Share your result with anyone you want, such as friends before a party, also employer or school.": {
+        "de": "Teile dein Testergebnis mit jedem den du möchtest, z.B. dem Arbeitgeber, Schulverwaltung oder Freunden." 
     },
     "For Individuals": {
-        "de": "Fuer Dich" 
+        "de": "Für Dich" 
     },
     "With our no hassle pricing plans": {
         "de": "Mit unseren unkomplizierten Preisplänen" 
@@ -110,14 +110,14 @@
     "/ mo.": {
         "de": " mtl." 
     },
-    "%n Tests per month": {
-        "de": "%n Tests pro Monat" 
+    "%n test reports per month": {
+        "de": "%n Testberichte pro Monat" 
     },
     "Unlimited Sharing": {
-        "de": "Unbegrenztes teilen" 
+        "de": "unbegrenztes teilen" 
     },
     "Test History": {
-        "de": "Test Historie" 
+        "de": "Test-Historie" 
     },
     "Dedicated support": {
         "de": "Support" 
@@ -131,14 +131,14 @@
     "£%n": {
         "de": "%n€" 
     },
-    "Unlimited Tests per month": {
-        "de": "Unbegrenzte Tests pro Monat" 
+    "Unlimited tests reports": {
+        "de": "unbegrenzte Testberichte" 
     },
     "Subscribe": {
         "de": "Abonnieren" 
     },
     "For Business": {
-        "de": "Fuer Unternehmen" 
+        "de": "Für Unternehmen" 
     },
     "Manage the test status of your workforce or organisation members": {
         "de": "Verwalte den Teststatus deiner Belegschaft oder Organisationsmitglieder" 
@@ -153,7 +153,7 @@
         "de": "1 Benutzer" 
     },
     "Admin Dashboard": {
-        "de": "Administrations Uebersicht" 
+        "de": "Administrations Übersicht" 
     },
     "Organisation support": {
         "de": "Unternehmen Support" 
@@ -183,13 +183,13 @@
         "de": "699€" 
     },
     "1 license up to 100 Users": {
-        "de": "1 Lizens fuer bis zu 100 Benutzer" 
+        "de": "1 Lizenz für bis zu 100 Benutzer" 
     },
-    "You would like to purchase our service or you have any questions?": {
-        "de": "Du moechtest unseren Service bestellen oder hast eine Frage?" 
+    "Would you like to purchase our service, or do you have any questions?": {
+        "de": "Du möchtest unseren Service bestellen oder hast eine Frage?" 
     },
     "We'd love to hear from you": {
-        "de": "Wir wuerden gerne von dir hoeren" 
+        "de": "Wir würden gerne von dir hören" 
     },
     "A name is required.": {
         "de": "Ein Name ist erforderlich" 
