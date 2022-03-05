@@ -2,7 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Corono.Center" />
         <meta name="author" content="Doosis ltd." />
         <title>Corono.Center</title>
@@ -14,101 +15,51 @@
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/custom.css" rel="stylesheet" />
     </head>
-    <body>
+    <body class="h-100">
         <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar px-5">
-            <!-- <div class="container"> -->
-                <a class="navbar-brand" href="#!">
-                    <img src="assets/logo_small.png" height="60px" class="d-inline-block align-top" alt="">
+        <nav class="navbar navbar-expand-md navbar-light bg-light ca-navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="https://corono.center/">
+                    <img src="assets/logo_small.png" height="48px" class="d-inline-block align-top" alt="">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"><h1><i class="bi bi-list"></i></h1></span>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 my-2 my-sm-0 float-end">
-                        <li class="nav-item py-1 mx-1">
-                            <div class=" w-100">
-                                <i class="bi bi-flag"></i>
-                                <select id="language" class="btn btn-outline-secondary m-0" data-placeholder="English" onchange="toggleLanguage(this.options[this.selectedIndex].value)">
-                                    <option value="English">English</option>
-                                    <option value="Deutsch">Deutsch</option>
-                                </select>
-                            </div>
-                        </li>             
-                        <li class="nav-item py-1 mx-1"><a class="btn btn-primary w-100" href="#contact" data-translate="Try it for free"></a></li>
-                        <li class="nav-item py-1 mx-1"><a class="btn btn-outline-secondary w-100" href="#contact" data-translate="Support"></a> </li>              
-                        <li class="nav-item py-1 mx-1"><a class="btn btn-outline-secondary w-100" href="https://beta.corono.center/accounts/login/" data-translate="Login"></a></li>
+                    <ul class="navbar-nav justify-content-center">  
+                        <li class="nav-item"><b><a class="nav-link" href="#contact" data-translate="Try it for free"></a></b></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact" data-translate="Support"></a></li>              
+                        <li class="nav-item"><a class="nav-link" href="https://beta.corono.center/accounts/login/" data-translate="Login"></a></li> 
                     </ul>
                 </div>
-            <!-- </div> -->
+            </div>
         </nav>
 
         <!-- Header-->
-        <header class="border-bottom border-bottom-custom py-5 vh-100 header-bg">
-            <div class="container vh-100">
+        <header class="border-bottom border-bottom-custom h-100 header-bg">
+            <div class="container h-100 ">      
                 <div class="row justify-content-center align-items-center vh-100">
                     <div class="col-lg-12">
                         <div class="text-center my-5">
                             <img class="mb-5" src="assets/logo_large.png" alt="https://www.w3schools.com/bootstrap4/paris.jpg">
                             <br>
-                            <h3 class="display-7 fw-bolder text-black mb-10" data-translate="COVID-19 Test Administration Made Simple."></h3>
-                            <p class="lead text-black-20 mb-4" data-translate="Quickly share your test results with your friends or organisation"></p>
+                            <h3 class="display-7 fw-bolder text-black mb-10 text-shadow-1" data-translate="COVID-19 Test Administration Made Simple."></h3>
+                            <p class="lead text-black-20 mb-4 text-shadow-1" data-translate="Quickly share your test results with your friends or organisation"></p>
                             <br>
                             <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
                                 <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#login" data-translate="Try it for free"></a>
-                                <a class="btn btn-outline-dark btn-lg px-4" href="#instructions" data-translate="Learn More"></a>
+                                <a class="btn btn-outline-secondary btn-lg px-4" href="#instructions" data-translate="Learn More"></a>
                             </div>                            
                         </div>
                         <div class="col-lg-12 text-center">
-                            <p class="lead mb-4" data-translate="Corono.Center is a platform with the cause to support with processing and administration of COVID-19 selftests for individuals and organisations. The purpose is simplified result sharing and to reduce the workload for organisations with processing, validation, and administration of COVID-19 tests."></p>
+                            <p class="lead mb-4 text-shadow-1" data-translate="Corono.Center is a platform with the cause to support with processing and administration of COVID-19 selftests for individuals and organisations. The purpose is simplified result sharing and to reduce the workload for organisations with processing, validation, and administration of COVID-19 tests."></p>
                         </div>
                     </div>    
                     
                 </div>  
-                </div>
-                
-            </div>
+            </div>        
+         
         </header>
-        <!-- Features section-->
-        <!-- <section class="border-bottom py-5" id="features">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-person"></i></div>
-                        <h2 class="h4 fw-bolder" data-translate="Stay Safe"></h2>
-                        <p data-translate="Reduce risk of infection by being informed about the test status of people you meet."></p>
-                    </div>
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-person"></i></div>
-                        <h2 class="h4 fw-bolder" data-translate="Provide Evidence"></h2>
-                        <p data-translate="Provide evidence about conducted tests before leaving your home."></p>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-person"></i></div>
-                        <h2 class="h4 fw-bolder" data-translate="Share Results"></h2>
-                        <p data-translate="Share your test result in a quick and easy way before you meet with friends, colleagues or with your employer."></p>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
-                        <h2 class="h4 fw-bolder" data-translate="Avoid Business Interruption"></h2>
-                        <p data-translate="Let your workforce arrive tested to avoid spreading infections and shortage in resources which risks business interruptions."></p>
-                    </div>
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
-                        <h2 class="h4 fw-bolder" data-translate="Increase Health & Safety"></h2>
-                        <p data-translate="Increased health and safety for your workforce and reduce infection rates by avoiding on-premise testing."></p>
-                    </div>
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
-                        <h2 class="h4 fw-bolder" data-translate="Reduce Workload"></h2>
-                        <p data-translate="Reduce the workload with on-premise test administration and coordination of COVID-19 positive cases."></p>
-                    </div>
-                </div>
-            </div>
-        </section> -->
 
         <!-- Help section-->
         <section class="pt-5">
@@ -121,32 +72,34 @@
             </div>
         </section>
     
-        <!-- Individuals Features section-->
-        <section class="pt-5">
-            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch pt-5">
-                <div class="">
-                    <div class="card text-white bg-dark rounded-5 shadow-lg" style="background-size: cover; background-position: center; background-image: url('https://image.shutterstock.com/image-photo/business-people-japanese-culture-bowing-600w-258176981.jpg');">
-                    <div class="d-flex flex-column p-5 pb-3 text-white text-shadow-1">
-                        <h2 class="pt-5 mt-5 mb-4 display-6 fw-bold" data-translate="Enterprise"></h2>
+        <!-- Who We Help Section-->
+        <section class="">
+            <div class="container-fluid">
+                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                    <div class="">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-size: cover; background-position: center; background-image: url('assets/enterprise.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" data-translate="Enterprise"></h2>
                         <small data-translate="Test at home to avoid workplace asymptomatic spread. You get real-time visibility of adherence, enabling informed decision making."></small>
+                        </div>
                     </div>
                     </div>
-                </div>
             
-                <div class="">
-                    <div class="card  text-whie bg-dark rounded-5 shadow-lg" style="background-size: cover; background-position: center; background-image: url('https://image.shutterstock.com/image-photo/group-elementary-school-kids-running-600w-388660693.jpg');">
-                    <div class="d-flex flex-column p-5 pb-3 text-white text-shadow-1">
-                        <h2 class="pt-5 mt-5 mb-4 display-6 fw-bold" data-translate="Education"></h2>
+                    <div class="">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-size: cover; background-position: center; background-image: url('assets/education.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" data-translate="Education"></h2>
                         <small data-translate="Test before school starts to avoid asymptomatic spread. The school gets real-time visibility of adherence by staff & students."></small>
+                        </div>
                     </div>
                     </div>
-                </div>
             
-                <div class="">
-                    <div class="card text-white bg-dark rounded-5 shadow-lg" style="background-size: cover; background-position: center; background-image: url('https://image.shutterstock.com/image-photo/business-meeting-eating-cheers-happiness-600w-454809748.jpg');">
-                    <div class="d-flex flex-column p-5 pb-3 text-white text-shadow-1"> 
-                        <h2 class="pt-5 mt-5 mb-4 display-6 fw-bold" data-translate="Events"></h2>
-                        <small data-translate="Test guests at home with real-time visibility of adherence to avoid reduced attendance and asymptomatic spread."></small>
+                    <div class="">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-size: cover; background-position: top; background-image: url('assets/events.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"> 
+                            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" data-translate="Events"></h2>
+                            <small data-translate="Test guests at home with real-time visibility of adherence to avoid reduced attendance and asymptomatic spread."></small>
+                        </div>
                     </div>
                     </div>
                 </div>
@@ -229,7 +182,7 @@
         </section>
 
         <!-- Pricing Business Headline-->
-        <section class="pt-5" style="background:#E0E2F4">
+        <section class="pt-5" style="background:#EFF3CA"">
             <div class="container px-5">
                 <div class="text-center">
                     <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
@@ -240,75 +193,42 @@
         </section>
 
         <!-- Business Features section-->
-        <!-- <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5"  style="background:#E0E2F4">
-            <div class="">
-              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-size: cover; background-position: center; background-image: url('https://image.shutterstock.com/image-photo/robotic-machine-vision-system-phone-600w-518713594.jpg');">
-                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                  <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" data-translate="Avoid Business Interruption"></h2>
-                  <small data-translate="Let your workforce arrive tested to avoid spreading infections and shortage in resources which risks business interruptions."></small>
+        <section class="" style="background:#EFF3CA">
+            <div class="container-fluid">
+                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                    <div class="">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-size: cover; background-position: center; background-image: url('assets/interruption.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" data-translate="Avoid Business Interruption"></h2>
+                        <small data-translate="Let your workforce arrive tested to avoid spreading infections and shortage in resources which risks business interruptions."></small>
+                        </div>
+                    </div>
+                    </div>
+            
+                    <div class="">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-size: cover; background-position: center; background-image: url('assets/health.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" data-translate="Increase Health & Safety"></h2>
+                        <small data-translate="Increased health and safety for your workforce and reduce infection rates by avoiding on-premise testing."></small>
+                        </div>
+                    </div>
+                    </div>
+            
+                    <div class="">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-size: cover; background-position: bottom; background-image: url('assets/workload.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"> 
+                            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" data-translate="Reduce Workload for staff"></h2>
+                            <small data-translate="Reduce the workload with on-premise test administration and coordination of COVID-19 positive cases."></small>
+                        </div>
+                    </div>
+                    </div>
                 </div>
-              </div>
             </div>
-      
-            <div class="">
-              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-size: cover; background-position: center; background-image: url('https://image.shutterstock.com/image-photo/businessman-businesswoman-medical-mask-office-600w-1724626387.jpg');">
-                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                  <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" data-translate="Increase Health & Safety"></h2>
-                  <small data-translate="Increased health and safety for your workforce and reduce infection rates by avoiding on-premise testing."></small>
-                </div>
-              </div>
-            </div>
-      
-            <div class="">
-              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-size: cover; background-position: center; background-image: url('https://image.shutterstock.com/image-photo/male-office-workers-holding-writing-600w-1910309458.jpg');">
-                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"> 
-                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" data-translate="Reduce Workload for staff"></h2>
-                    <small data-translate="Reduce the workload with on-premise test administration and coordination of COVID-19 positive cases."></small>
-                </div>
-              </div>
-            </div>
-          </div> -->
+          </section>
 
-        <!-- Business Features section-->
-        <!-- <section class="" id="features" style="background:#E0E2F4">
-            <div class="container">
-                <div class="row gx-5 justify-content-center">
-                    <div class="col-lg-12 col-xl-4 mb-5"> 
-                        <div class="card border-primary h-100">
-                            <div class="card-header bg-primary">
-                                <h2 class="h4 fw-bolder" data-translate="Avoid Business Interruption"></h2>
-                            </div>
-                            <div class="card-body">
-                                <p data-translate="Let your workforce arrive tested to avoid spreading infections and shortage in resources which risks business interruptions."></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-12 col-xl-4 mb-5"> 
-                        <div class="card border-primary h-100">
-                            <div class="card-header bg-primary ">
-                                <h2 class="h4 fw-bolder" data-translate="Increase Health & Safety"></h2>
-                            </div>
-                            <div class="card-body">
-                                <p data-translate="Increased health and safety for your workforce and reduce infection rates by avoiding on-premise testing."></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-12 col-xl-4 mb-5"> 
-                        <div class="card border-primary h-100">
-                            <div class="card-header bg-primary ">
-                                <h2 class="h4 fw-bolder" data-translate="Reduce Workload for staff"></h2>
-                            </div>
-                            <div class="card-body">
-                                <p data-translate="Reduce the workload with on-premise test administration and coordination of COVID-19 positive cases."></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
 
         <!-- Pricing Business section-->
-        <section class="border-bottom pb-5" style="background:#E0E2F4">
+        <section class="border-bottom pb-5" style="background:#EFF3CA">
             <div class="container">
                 <div class="row justify-content-center">
                     <!-- Business Basic card -->
@@ -507,57 +427,38 @@
         </section>
 
         <!-- Individuals Features section-->
-        <!-- <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 pt-5">
-            <div class="">
-              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-size: cover; background-position: center; background-image: url('https://image.shutterstock.com/image-photo/coronavirus-covid19-pm25online-educationlittle-chinese-600w-1656833002.jpg');">
-                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                  <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" data-translate="Stay Safe"></h2>
-                  <small data-translate="Reduce risk of infection by being informed about the test status of people you meet."></small>
-                </div>
-              </div>
-            </div>
-      
-            <div class="">
-              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-size: cover; background-position: center; background-image: url('https://image.shutterstock.com/image-photo/covid-pass-certificate-airport-digital-600w-2059008206.jpg');">
-                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                  <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" data-translate="Provide Evidence"></h2>
-                  <small data-translate="Provide evidence about conducted tests before leaving your home."></small>
-                </div>
-              </div>
-            </div>
-      
-            <div class="">
-              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-size: cover; background-position: center; background-image: url('https://image.shutterstock.com/image-photo/close-view-man-woman-using-600w-1153889713.jpg');">
-                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"> 
-                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" data-translate="Share Results"></h2>
-                    <small data-translate="Share your test result in a quick and easy way before you meet with friends, colleagues or with your employer."></small>
-                </div>
-              </div>
-            </div>
-          </div> -->
-
-        <!-- Individuals Features section-->
-        <!-- <section class="" id="features">
-            <div class="container">
-                <div class="row gx-5">
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-person"></i></div>
-                        <h2 class="h4 fw-bolder" data-translate="Stay Safe"></h2>
-                        <p data-translate="Reduce risk of infection by being informed about the test status of people you meet."></p>
+        <section class="">
+            <div class="container-fluid">
+                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 pt-5">
+                    <div class="">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-size: cover; background-position: center; background-image: url('assets/staysafe.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" data-translate="Stay Safe"></h2>
+                        <small data-translate="Reduce risk of infection by being informed about the test status of people you meet."></small>
+                        </div>
                     </div>
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-person"></i></div>
-                        <h2 class="h4 fw-bolder" data-translate="Provide Evidence"></h2>
-                        <p data-translate="Provide evidence about conducted tests before leaving your home."></p>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-person"></i></div>
-                        <h2 class="h4 fw-bolder" data-translate="Share Results"></h2>
-                        <p data-translate="Share your test result in a quick and easy way before you meet with friends, colleagues or with your employer."></p>
+            
+                    <div class="">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-size: cover; background-position: center; background-image: url('assets/evidence.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" data-translate="Provide Evidence"></h2>
+                        <small data-translate="Provide evidence about conducted tests before leaving your home."></small>
+                        </div>
+                    </div>
+                    </div>
+            
+                    <div class="">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-size: cover; background-position: center; background-image: url('assets/share.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"> 
+                            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" data-translate="Share Results"></h2>
+                            <small data-translate="Share your test result in a quick and easy way before you meet with friends, colleagues or with your employer."></small>
+                        </div>
+                    </div>
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
 
         <!-- Individuals Pricing -->
         <section class="border-bottom py-5">
@@ -677,7 +578,7 @@
             </div>
         </section> -->
         <!-- Contact section-->
-        <section class="py-5" id="contact" style="background:#ADADAD;"> 
+        <section class="py-5" id="contact" style="background:#00A5A6;"> 
             <div class="container px-5">
                 <div class="text-center mb-5">
                     <!-- <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div> -->
@@ -735,7 +636,7 @@
                             <!-- an error submitting the form-->
                             <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3" data-translate="Error sending message!"></div></div>
                             <!-- Submit Button-->
-                            <div class="d-grid"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit" data-translate="Submit"></button></div>
+                            <div class="d-grid"><button class="btn btn-primary-custom btn-lg disabled" id="submitButton" type="submit" data-translate="Submit"></button></div>
                         </form>
                     </div>
                 </div>
@@ -743,7 +644,18 @@
         </section>
         <!-- Footer-->
         <footer class="py-5 bg-dark">
-            <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; Corono.Center 2022</p></div>
+            <div class="container px-5">
+                <div class="ms-auto mb-2 mb-lg-0 my-2 my-sm-0 float-end">
+                    <i class="bi bi-flag text-white"></i>
+                    <select id="language" class="btn btn-outline-secondary bg-dark m-0" data-placeholder="English" onchange="toggleLanguage(this.options[this.selectedIndex].value)">
+                        <option value="English">English</option>
+                        <option value="Deutsch">Deutsch</option>
+                    </select>
+                </div> 
+
+                <p class="m-0 text-center text-white">Copyright &copy; Corono.Center 2022</p>
+            </div>
+            
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>

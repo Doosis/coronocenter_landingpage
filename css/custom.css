@@ -1,3 +1,8 @@
+.ca-navbar {
+  z-index: 1000;
+  border-bottom: 4px solid #00a8a1;
+}
+
 .bg-primary {
   --bs-bg-opacity: 1;
   background-color: #00A5A6 !important;
@@ -50,10 +55,20 @@
   border-bottom: 30px solid #00A5A6 !important;
 }
 
+.demo-wrap {
+  overflow: hidden;
+  position: relative;
+}
+
 .header-bg { 
   background-size: cover;
-  background-position: left;
+  background-position: center;
   background-repeat: no-repeat; 
-  background-image: url('https://image.shutterstock.com/image-photo/covid19-corona-virus-economic-impact-600w-1690780495.jpg');
+  /* background-image: url('https://image.shutterstock.com/image-illustration/white-virus-bacteria-cells-3d-600w-1734031169.jpg'); */
+  background-image: url('../assets/header.jpg');
+}
 
+.btn-primary-custom {
+  --bs-bg-opacity: 1;
+  background-color: #EFF3CA !important;
 }
