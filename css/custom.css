@@ -1,26 +1,59 @@
+.bg-primary {
+  --bs-bg-opacity: 1;
+  background-color: #00A5A6 !important;
+}
+
 .btn-primary {
   color: #fff;
-  background-color: #0d6efd;
-  border-color: #0d6efd;
+  background-color: #00A5A6;
+  border-color: #00A5A6;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #0b5ed7;
-  border-color: #0a58ca;
+  background-color: #00A5A6;
+  border-color: #00A5A6;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
-  background-color: #0b5ed7;
-  border-color: #0a58ca;
+  background-color: #00A5A6;
+  border-color: #00A5A6;
   box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
 }
 
-.btn-outline-secondary {
-  color: #6c757d;
-  border-color: #6c757d;
+.btn-outline-primary {
+  color: #00A5A6;
+  border-color: #00A5A6;
 }
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #00A5A6;
+  border-color: #00A5A6;
+}
+
+.btn-outline-secondary {
+  color: #00A5A6;
+  border-color: #00A5A6;
+}
+
 .btn-outline-secondary:hover {
   color: #fff;
-  background-color: #198754;
-  border-color: #198754;
+  background-color: #00A5A6;
+  border-color: #00A5A6;
+}
+
+.img-border-custom {
+  border: 2px dotted #424242;
+  border-radius: 10px;
+}
+
+.border-bottom-custom {
+  border-bottom: 30px solid #00A5A6 !important;
+}
+
+.header-bg { 
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat; 
+  background-image: url('https://image.shutterstock.com/image-photo/covid19-corona-virus-economic-impact-600w-1690780495.jpg');
+
 }

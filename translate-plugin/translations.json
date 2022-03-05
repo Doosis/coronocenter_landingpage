@@ -20,6 +20,30 @@
     "Corono.Center is a platform with the cause to support with processing and administration of COVID-19 selftests for individuals and organisations. The purpose is simplified result sharing and to reduce the workload for organisations with processing, validation, and administration of COVID-19 tests.": {
         "de": "Corono.Center unterstützt Benutzer und Organisationen bei der Testabwicklung von COVID-19-Selbsttests. Wir bieten Benutzern einen einfachen Weg Testergebnisse zu teilen und reduzieren den Arbeitaufwand bei der Verarbeitung, Bestätigung und Verwaltung von COVID-19 Tests." 
     },
+    "Who we help.": {
+        "de": "Wem wir helfen." 
+    },
+    "There are a wide range of use cases ...": {
+        "de": "Es gibt eine Reihe von Anwendungsfällen ..." 
+    },
+    "Enterprise": {
+        "de": "Unternehmen" 
+    },
+    "Test at home to avoid workplace asymptomatic spread. You get real-time visibility of adherence, enabling informed decision making.": {
+        "de": "Teste zu Hause, um eine asymptomatische Ausbreitung am Arbeitsplatz zu vermeiden. Erhalte einen Echtzeit-Einblick und ermögliche so eine fundierte Entscheidungshilfe." 
+    },
+    "Education": {
+        "de": "Bildung" 
+    },
+    "Test before school starts to avoid asymptomatic spread. The school gets real-time visibility of adherence by staff & students.": {
+        "de": "Teste vor Schulbeginn, um eine asymptomatische Ausbreitung zu vermeiden. Die Schule erhält Echtzeit-Sichtbarkeit der Einhaltung der Maßnahmen von Mitarbeitern und Studenten." 
+    },
+    "Events": {
+        "de": "Veranstalltungen" 
+    },
+    "Test guests at home with real-time visibility of adherence to avoid reduced attendance and asymptomatic spread.": {
+        "de": "Lasse Gäste zu Hause testen, mit Echtzeit-Sichtbarkeit der Ergebnisse, um eine reduzierte Teilnahme und eine asymptomatische Ausbreitung zu vermeiden." 
+    },
     "Stay Safe": {
         "de": "Bleib Sicher" 
     },
@@ -45,13 +69,13 @@
         "de": "Lass deine Belegschaft getestet antreten um die Ausbreitung von Infektionen zu verhindern und keine Geschaeftsunterbrechungen zu riskieren." 
     },
     "Increase Health & Safety": {
-        "de": "Reduziere das Infektionsrisiko" 
+        "de": "Reduziere das Infektionsrisiko der Belegschaft" 
     },
     "Increased health and safety for your workforce and reduce infection rates by avoiding on-premise testing.": {
         "de": "Eerhöhe die Sicherheit und den Gesundheitsschutz deiner Belegschaft und deiner Familie und Freunde und reduziere die Infektionsrate, indem du dich vorab testest." 
     },
-    "Reduce Workload": {
-        "de": "Reduziere den Arbeitsaufwand" 
+    "Reduce Workload for staff": {
+        "de": "Reduziere den Arbeitsaufwand für Mitarbeiter" 
     },
     "Reduce the workload with on-premise test administration and coordination of COVID-%n positive cases.": {
         "de": "Reduziere deinen Arbeitsaufwand mit dem vor Ort testen und der Koordination von COVID-%n positiven Mitarbeitern." 
