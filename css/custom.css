@@ -40,8 +40,18 @@
   border-color: #00A5A6;
 }
 
+.btn-outline-secondary-dropdown {
+  background-color: white;
+  color: #00A5A6;
+  border-color: #00A5A6;
+}
+
+.btn-outline-secondary-dropdown:hover {
+  color: #00A5A6;;
+}
+
 .btn-outline-secondary:hover {
-  color: #fff;
+  /* color: #fff; */
   background-color: #00A5A6;
   border-color: #00A5A6;
 }

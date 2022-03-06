@@ -115,9 +115,17 @@
             </div>
         </nav>
 
+
         <!-- Header-->
         <header class="border-bottom border-bottom-custom h-100 header-bg">
-            <div class="container h-100 ">      
+            <div class="ms-auto mb-2 mb-lg-0 my-2 my-sm-0 p-2 float-end">
+                <i class="bi bi-flag text-black"></i>
+                <select id="language" class="btn btn-outline-secondary-dropdown m-0" data-placeholder="English" onchange="toggleLanguage(this.options[this.selectedIndex].value)">
+                    <option value="English">English</option>
+                    <option value="Deutsch">Deutsch</option>
+                </select>
+            </div>  
+            <div class="container h-100 ">       
                 <div class="row justify-content-center align-items-center vh-100">
                     <div class="col-lg-12">
                         <div class="text-center my-5">
@@ -135,8 +143,7 @@
                     </div>    
                     
                 </div>  
-            </div>        
-         
+            </div>                
         </header>
 
         <!-- Info section-->
@@ -725,14 +732,6 @@
         <!-- Footer-->
         <footer class="py-5 bg-dark">
             <div class="container px-5">
-                <div class="ms-auto mb-2 mb-lg-0 my-2 my-sm-0 float-end">
-                    <i class="bi bi-flag text-white"></i>
-                    <select id="language" class="btn btn-outline-secondary bg-dark m-0" data-placeholder="English" onchange="toggleLanguage(this.options[this.selectedIndex].value)">
-                        <option value="English">English</option>
-                        <option value="Deutsch">Deutsch</option>
-                    </select>
-                </div> 
-
                 <p class="m-0 text-center text-white">Copyright &copy; Corono.Center 2022</p>
             </div>
             
