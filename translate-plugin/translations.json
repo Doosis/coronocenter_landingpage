@@ -131,8 +131,11 @@
     "For You": {
         "de": "Für Dich" 
     },
-    "Share your test status and be informed about the status of your contacts": {
-        "de": "Teile dein Teststatus und sei informiert über den Status deiner Kontakte" 
+    "You want to share your test status and be informed about the status of your contacts in a simple way?": {
+        "de": "Du willst deinen Teststatus auf einfache Weise teilen und informiert sein über den Status deiner Kontakte?" 
+    },
+	"Corono.Center can support you": {
+        "de": "Corono.Center kann dich dabei unterstützen" 
     },
     "Free": {
         "de": "Kostenlos" 
@@ -173,8 +176,11 @@
     "For Business": {
         "de": "Für Unternehmen" 
     },
-    "Manage the test status of your workforce or organisation members": {
-        "de": "Verwalte den Teststatus deiner Belegschaft oder Organisationsmitglieder" 
+    "You want to use Corono.Center for your business?": {
+        "de": "Du willst Corono.Center in deinem Unternehmen nutzen?" 
+    },
+	"Manage the test status of your workforce in a simple and efficient way": {
+        "de": "Verwalte den Teststatus deiner Belegschaft simpel und effektiv" 
     },
     "Business Basic": {
         "de": "Basis Paket" 
