@@ -26,14 +26,14 @@
     "Learn More": {
         "de": "Mehr erfahren" 
     },
-    "Corono.Center is a platform with the cause to support with processing and administration of COVID-19 selftests for individuals and organisations. The purpose is simplified result sharing and to reduce the workload for organisations with processing, validation, and administration of COVID-19 tests.": {
-        "de": "Corono.Center unterstützt Benutzer und Organisationen bei der Testabwicklung von COVID-19-Selbsttests. Wir bieten Benutzern einen einfachen Weg Testergebnisse zu teilen und reduzieren den Arbeitaufwand bei der Verarbeitung, Bescheinigung und Verwaltung von COVID-19 Tests." 
+    "Corono.Center is a platform supporting the processing and administration of COVID-%n self-tests for individuals and organisations. The purpose is simplified result sharing and to reduce the workload for organisations with processing, validation, and administration of tests.": {
+        "de": "Corono.Center unterstützt Benutzer und Organisationen bei der Testabwicklung von COVID-19-Selbsttests. Wir bieten Benutzern einen einfachen Weg Testergebnisse zu teilen und reduzieren den Arbeitaufwand bei der Verarbeitung, Bescheinigung und Verwaltung von Tests." 
     },
     "Who we help.": {
         "de": "Wem wir helfen." 
     },
-    "There are a wide range of use cases ...": {
-        "de": "Es gibt eine Reihe von Anwendungsfällen ..." 
+    "We supports a wide variety of causes": {
+        "de": "Wir unterstützen eine Reihe von Anwendungsfällen." 
     },
     "Enterprise": {
         "de": "Unternehmen" 
@@ -44,14 +44,14 @@
     "Education": {
         "de": "Bildung" 
     },
-    "Test before school starts to avoid asymptomatic spread. The school gets real-time visibility of adherence by staff & students.": {
-        "de": "Teste vor Schulbeginn, um eine asymptomatische Ausbreitung zu vermeiden. Die Schule erhält Echtzeit-Sichtbarkeit der Einhaltung der Maßnahmen von Mitarbeitern und Studenten." 
+    "Test before school starts to avoid asymptomatic spread. The school gets real-time visibility of adherence, protecting staff & students.": {
+        "de": "Teste vor Schulbeginn, um eine asymptomatische Ausbreitung zu vermeiden. Die Schule erhält Echtzeit-Sichtbarkeit der Einhaltung der Maßnahmen zum Schutz von Mitarbeitern und Studenten." 
     },
     "Events": {
         "de": "Veranstalltungen" 
     },
-    "Test guests at home with real-time visibility of adherence to avoid reduced attendance and asymptomatic spread.": {
-        "de": "Lasse Gäste zu Hause testen, mit Echtzeit-Sichtbarkeit der Ergebnisse, um eine reduzierte Teilnahme und eine asymptomatische Ausbreitung zu vermeiden." 
+    "Test guest before arrival, to avoid asymptomatic spread and reduced attendance. You get real-time visibility of adherence, protecting your guests, family and friends.": {
+        "de": "Lasse Gäste vor Ankunft testen, um eine asymptomatische Ausbreitung eine reduzierte Teilnahme zu vermeiden. Erhalte einen Echtzeit-Einblick und schütze deine Gäste, Familie und Freunde." 
     },
     "Stay Safe": {
         "de": "Bleib Sicher" 
@@ -68,8 +68,8 @@
     "Share Results": {
         "de": "Teile Ergebnisse" 
     },
-    "Share your test result in a quick and easy way before you meet with friends, colleagues or with your employer.": {
-        "de": "Teile deinen Teststatus schnell und einfach mit Freunden oder deinem Arbeitgeber bevor du sie triffst." 
+    "Share your test result in a quick and easy way before you meet with other people.": {
+        "de": "Teile deinen Teststatus schnell und einfach bevor du dich mit anderen Leuten triffst." 
     },
     "Avoid Business Interruption": {
         "de": "Verhindere Betriebsausfälle" 
@@ -83,8 +83,8 @@
     "Increased health and safety for your workforce and reduce infection rates by avoiding on-premise testing.": {
         "de": "Erhöhe die Sicherheit und den Gesundheitsschutz deiner Belegschaft und deiner Familie und Freunde und reduziere die Infektionsrate, indem du dich vorab testest." 
     },
-    "Reduce Workload for staff": {
-        "de": "Reduziere den Arbeitsaufwand für Mitarbeiter" 
+    "Reduce Workload": {
+        "de": "Reduziere den Arbeitsaufwand" 
     },
     "Reduce the workload with on-premise test administration and coordination of COVID-%n positive cases.": {
         "de": "Reduziere deinen Arbeitsaufwand mit dem vor Ort testen und der Koordination von COVID-%n positiven Mitarbeitern." 
@@ -95,8 +95,8 @@
     "How it works.": {
         "de": "Wie's funktioniert." 
     },
-    "Just sign up and ...": {
-        "de": "Meld dich an und ..." 
+    "Register, login, and follow the instructions": {
+        "de": "Registrier dich, Log dich ein und folge den Answeisungen" 
     },
     "Step 1:": {
         "de": "Schritt 1:" 
@@ -119,14 +119,14 @@
     "Report": {
         "de": "Berichten" 
     },
-    "Report on your test result via the app.": {
+    "Report on your test result via app.": {
         "de": "Lade deine Testergebnisse über die Plattform hoch." 
     },
     "Share": {
         "de": "Teilen" 
     },
-    "Share your result with anyone you want, such as friends before a party, also employer or school.": {
-        "de": "Teile dein Testergebnis mit jedem den du möchtest, z.B. dem Arbeitgeber, Schulverwaltung oder Freunden." 
+    "Share your result with relevant people, such as employers, schools, family and friends.": {
+        "de": "Teile dein Testergebnis mit wem du möchtest, z.B. dem Arbeitgeber, Schulverwaltung oder Freunden." 
     },
     "For You": {
         "de": "Für Dich" 
@@ -224,8 +224,8 @@
     "1 license up to 100 Users": {
         "de": "1 Lizenz für bis zu 100 Benutzer" 
     },
-    "Would you like to purchase our service, or do you have any questions?": {
-        "de": "Du möchtest unseren Service bestellen oder hast eine Frage?" 
+    "Would you like to sign up to our service, or do you have any questions?": {
+        "de": "Du möchtest unseren Service nutzen oder hast eine Frage?" 
     },
     "We'd love to hear from you": {
         "de": "Wir würden gerne von dir hören" 
