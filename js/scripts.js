@@ -4,10 +4,9 @@
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-business-frontpage/blob/master/LICENSE)
 */
 
-$('#button').submit(function(e) {
+$('#contactFormModal').submit(function(e) {
     e.preventDefault();
     // Coding
     $('#exampleModal').modal('toggle'); //or  $('#IDModal').modal('hide');
-    return false;
 });
 
