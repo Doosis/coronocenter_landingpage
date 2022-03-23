@@ -3,10 +3,3 @@
 * Copyright 2013-2022 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-business-frontpage/blob/master/LICENSE)
 */
-
-$('#contactFormModal').submit(function(e) {
-    e.preventDefault();
-    // Coding
-    $('#exampleModal').modal('toggle'); //or  $('#IDModal').modal('hide');
-});
-
