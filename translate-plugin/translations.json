@@ -107,8 +107,8 @@
     "Prepare": {
         "de": "Vorbereiten" 
     },
-    "Prepare your lateral-flow test by following the instructions shown in the app.": {
-        "de": "Folge den Anweisungen auf der Plattform, um den Schnelltest vorzubereiten." 
+    "Prepare your lateral-flow test with the validation code by following the instructions shown in the app.": {
+        "de": "Folge den Anweisungen auf der Plattform, um den Schnelltest mit dem Validierungscode vorzubereiten." 
     },
     "Conduct": {
         "de": "Durchführen" 
@@ -125,8 +125,8 @@
     "Share": {
         "de": "Teilen" 
     },
-    "Share your result with relevant people, such as employers, schools, family and friends.": {
-        "de": "Teile dein Testergebnis mit wem du möchtest, z.B. dem Arbeitgeber, Schulverwaltung oder Freunden." 
+    "Share your result via Link or QR-Code with relevant people, such as employers, schools, family and friends.": {
+        "de": "Teile dein Testergebnis via Link oder QR-Code mit wem du möchtest, z.B. dem Arbeitgeber, Schulverwaltung oder Freunden." 
     },
     "For You": {
         "de": "Für Dich" 
