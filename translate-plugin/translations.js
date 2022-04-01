@@ -1,5 +1,5 @@
 // Variables 
-var lang= window.navigator.language, // Check the Browser language
+var lang = window.navigator.language || window.navigator.userLanguage, // Check the Browser language
 translate; // Container of all translations
 
 // Update language dropdown
