@@ -3,11 +3,11 @@ var lang = window.navigator.language || window.navigator.userLanguage, // Check 
 translate; // Container of all translations
 
 // Update language dropdown
-if (lang === 'en') {
+if (lang.includes('en')) {
     let element = document.getElementById('language');
     element.value = 'English';
 }
-else if(lang === 'de'){
+else if(lang.includes('de')){
     let element = document.getElementById('language');
     element.value = 'Deutsch';
 }
