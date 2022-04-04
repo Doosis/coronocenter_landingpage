@@ -203,8 +203,8 @@
     "£7.50": {
         "de": "7,50€" 
     },
-    "1 User": {
-        "de": "1 Benutzer" 
+    "per User": {
+        "de": "pro Benutzer" 
     },
     "Admin Dashboard": {
         "de": "Administrations Übersicht" 
@@ -224,8 +224,8 @@
     "%nrd-party integration possible": {
         "de": "Integration von Drittanbietern" 
     },
-    "Business Pro": {
-        "de": "Pro Paket" 
+    "Business Online": {
+        "de": "Online Paket" 
     },
     "£10": {
         "de": "10€" 
@@ -233,8 +233,8 @@
     "Business On-Premise": {
         "de": "Vor Ort Installation" 
     },
-    "£699": {
-        "de": "699€" 
+    "£599": {
+        "de": "599€" 
     },
     "1 license up to 100 Users": {
         "de": "1 Lizenz für bis zu 100 Benutzer" 
