@@ -17,7 +17,7 @@ else {
 } 
 
 
-startTranslation();
+
 
 function startTranslation(){
     // Call translations json file and populate translate variable  
@@ -70,3 +70,4 @@ function toggleLanguage(language) {
     startTranslation();
 }
 
+startTranslation();
