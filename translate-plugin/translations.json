@@ -1,4 +1,16 @@
 {
+    "We offer people, who are exposed to increased health risks or who cannot be vaccinated, a tool that enables them to take their own measures and thus have a piece of security.": {
+        "de": "Wir bieten Menschen, die erhöhten gesundheitlichen Gefahren ausgesetzt sind oder sich nicht impfen lassen können, ein Werkzeug, dass es ihnen ermöglicht eigenen Maßnahmen zu treffen und so ein Stück Sicherheit zu haben."
+    },
+    "We support organisations in reducing the risk of business and production downtime due to staff shortages and in protecting their workforce, regardless of government measures.": {
+        "de": "Wir unterstützen Organisationen dabei das Risiko von Betriebs- und Produktionsausfällen aufgrund von Mitarbeitermangel zu senken und die Belegschaft zu schützen, unabhängig von staatlichen Maßnahmen."
+    },
+    "People": {
+        "de": "Menschen"
+    },
+    "Organisations": {
+        "de": "Organisationen"
+    },
     "Close": {
         "de": "Schließen"
     },
@@ -41,14 +53,14 @@
     "Learn More": {
         "de": "Mehr erfahren" 
     },
-    "Corono.Center is a platform supporting the processing and administration of COVID-%n self-tests for individuals and organisations. The purpose is simplified result sharing and to reduce the workload for organisations with processing, validation, and administration of tests.": {
-        "de": "Corono.Center unterstützt Benutzer und Organisationen bei der Testabwicklung von COVID-19-Selbsttests. Wir bieten Benutzern einen einfachen Weg Testergebnisse zu teilen und reduzieren den Arbeitsaufwand bei der Verarbeitung, Bescheinigung und Verwaltung von Tests." 
+    "Corono.Center helps you or your organisation to stay safe regardless of Government Regulations by supporting you with the processing and administration of COVID-%n self-tests. The purpose is simplified result sharing and to reduce the workload with processing, validation, and administration of tests.": {
+        "de": "Corono.Center hilft dir oder deiner Organisation dabei sicher zu bleiben unabhängig von stattlichen Regulierungen indem wir dich bei der Testabwicklung von COVID-19-Selbsttests unterstützen. Das Ziel ist einen einfachen Weg zu bieten um Testergebnisse zu teilen und den Arbeitsaufwand bei der Verarbeitung, Bescheinigung und Verwaltung von Tests zu reduzieren." 
     },
     "Who we help.": {
         "de": "Wem wir helfen." 
     },
     "We supports a wide variety of causes": {
-        "de": "Wir unterstützen eine Reihe von Anwendungsfällen." 
+        "de": "Wir unterstützen eine Reihe von Anwendungsfällen" 
     },
     "Enterprise": {
         "de": "Unternehmen" 
