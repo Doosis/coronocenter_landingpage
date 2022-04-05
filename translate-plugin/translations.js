@@ -6,17 +6,18 @@ translate; // Container of all translations
 if (lang.includes('en')) {
     let element = document.getElementById('language');
     element.value = 'English';
+    lang = 'en'
 }
 else if(lang.includes('de')){
     let element = document.getElementById('language');
     element.value = 'Deutsch';
+    lang = 'de'
 }
 else {
     let element = document.getElementById('language');
     element.value = 'English';
+    lang = 'en'
 } 
-
-
 
 
 function startTranslation(){
