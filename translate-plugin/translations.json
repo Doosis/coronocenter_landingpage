@@ -212,8 +212,8 @@
     "Business Basic": {
         "de": "Basis Paket" 
     },
-    "£7.50": {
-        "de": "7,50€" 
+    "£4.99": {
+        "de": "4,99€" 
     },
     "per User": {
         "de": "pro Benutzer" 
@@ -236,8 +236,8 @@
     "%nrd-party integration possible": {
         "de": "Integration von Drittanbietern" 
     },
-    "Business Online": {
-        "de": "Online Paket" 
+    "Business Subscription": {
+        "de": "Business Paket" 
     },
     "£10": {
         "de": "10€" 
@@ -293,5 +293,10 @@
     ,
     "Submit": {
         "de": "Absenden" 
+    },
+    "Starting at %n Users": {
+        "de": "Ab 20 Benutzern" 
     }
+
+    
 }
